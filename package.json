@@ -1,6 +1,6 @@
 {
   "name": "feathers-hooks-ratelimit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple wrapper on fast-ratelimit for FeathersJS",
   "main": "index.js",
   "keywords": [
