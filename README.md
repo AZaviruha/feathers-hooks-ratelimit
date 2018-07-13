@@ -21,7 +21,7 @@ const rateLimit = require('feathers-hooks-ratelimit');
 
 const config = {
   threshold: 20,           // available tokens over timespan
-  ttl: 60                  // time-to-live value of token bucket (in seconds)
+  ttl: 60,                 // time-to-live value of token bucket (in seconds)
   userIdKey: 'user_id',    // used for request namespacing
   errorMessage: 'Too many requests. Please, try later.',
 };
